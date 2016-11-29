@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
 
     	# Customize the amount of memory on the VM:
     	vb.memory = "4048"
-    	vb.name = "SWFP"
+    	vb.name = "Dentist-Data"
     	vb.customize ["modifyvm", :id, "--usb", "on"]
     	vb.customize ["modifyvm", :id, "--usbehci", "off"]
   	end
