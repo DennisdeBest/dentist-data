@@ -25,7 +25,7 @@
   }
 
   function MainCtrl($log) {
-    $log.debug('MainCtrl laoded!');
+    $log.debug('MainCtrl loaded!');
   }
 
   function run($log) {
@@ -41,8 +41,10 @@
       'common.header',
       'common.footer',
       'common.services.data',
+      'common.services.returningvisitor',
       'common.directives.version',
       'common.filters.uppercase',
+      'common.filters.trunc',
       'common.interceptors.http',
       'templates'
     ])

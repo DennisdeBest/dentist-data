@@ -5,12 +5,16 @@
    * @name  MabiteCtrl
    * @description Controller
    */
-  function MabiteCtrl($log) {
-      var bite = this;
-      bite.someMethos = function () {
-          $log.debug('I\'m a method');
-      };
+  function MabiteCtrl($scope, ReturningVisitorService) {
+      $scope.test = "Testsdgfsdfgsgdsgfdsgfsqg";
+      if(ReturningVisitorService.get("mabite")) {
+          $scope.returning = "Welcome Back !";
+      } else {
+          $scope.returning = "Welcome";
+      }
+      ReturningVisitorService.add("mabite");
   }
+    MabiteCtrl.$inject = ['$scope', 'ReturningVisitorService'];
 
   angular.module('mabite', [])
     .controller('MabiteCtrl', MabiteCtrl);
