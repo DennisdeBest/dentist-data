@@ -148,40 +148,6 @@ try { module = angular.module("templates"); }
 catch(err) { module = angular.module("templates", []); }
 module.run(["$templateCache", function($templateCache) {
   "use strict";
-  $templateCache.put("src/app/mabite/mabite.tpl.html",
-    "<div class=\"pure-g\">\n" +
-    "  <div class=\"island3 pure-u-1 pure-u-lg-2-3\">\n" +
-    "    <h3>Speed up your <strong>bite !</strong> <span ng-bind=\"test\"></span> <br><span ng-bind=\"testRes\"></span></h3>\n" +
-    "    <h4>{{\"Truncate textyguygyuyg\" | trunc: 5}}</h4>\n" +
-    "    <h2 ng-bind=\"returning\"></h2>\n" +
-    "    <button monkeyClick ></button>\n" +
-    "  </div>\n" +
-    "</div>\n" +
-    "<div class=\"pure-g island\">\n" +
-    "\n" +
-    "</div>\n" +
-    "\n" +
-    "<hr/>\n" +
-    "<div class=\"pure-g island\">\n" +
-    "\n" +
-    "\n" +
-    "</div>\n" +
-    "\n" +
-    "<div class=\"pure-g island\">\n" +
-    "\n" +
-    "</div>\n" +
-    "\n" +
-    "<div class=\"pure-g\">\n" +
-    "</div>\n" +
-    "");
-}]);
-})();
-
-(function(module) {
-try { module = angular.module("templates"); }
-catch(err) { module = angular.module("templates", []); }
-module.run(["$templateCache", function($templateCache) {
-  "use strict";
   $templateCache.put("src/app/home/home.tpl.html",
     "<div class=\"pure-g\">\n" +
     "  <div class=\"island3 pure-u-1 pure-u-lg-2-3\">\n" +
@@ -278,6 +244,41 @@ module.run(["$templateCache", function($templateCache) {
     "    <h4>Build for production with ease</h4>\n" +
     "    <p>Easily optimize css js and images files for production.</p>\n" +
     "  </div>\n" +
+    "</div>\n" +
+    "");
+}]);
+})();
+
+(function(module) {
+try { module = angular.module("templates"); }
+catch(err) { module = angular.module("templates", []); }
+module.run(["$templateCache", function($templateCache) {
+  "use strict";
+  $templateCache.put("src/app/mabite/mabite.tpl.html",
+    "<div class=\"pure-g\">\n" +
+    "  <div class=\"island3 pure-u-1 pure-u-lg-2-3\">\n" +
+    "    <h3>Speed up your <strong>bite !</strong> <span ng-bind=\"test\"></span> <br><span ng-bind=\"testRes\"></span></h3>\n" +
+    "    <h4>{{\"Truncate textyguygyuyg\" | trunc: 5}}</h4>\n" +
+    "    <h2 ng-bind=\"returning\"></h2>\n" +
+    "    <button monkey-click time=1500 ></button>\n" +
+    "    <button monkey-click time=3000 ></button>\n" +
+    "  </div>\n" +
+    "</div>\n" +
+    "<div class=\"pure-g island\">\n" +
+    "\n" +
+    "</div>\n" +
+    "\n" +
+    "<hr/>\n" +
+    "<div class=\"pure-g island\">\n" +
+    "\n" +
+    "\n" +
+    "</div>\n" +
+    "\n" +
+    "<div class=\"pure-g island\">\n" +
+    "\n" +
+    "</div>\n" +
+    "\n" +
+    "<div class=\"pure-g\">\n" +
     "</div>\n" +
     "");
 }]);
