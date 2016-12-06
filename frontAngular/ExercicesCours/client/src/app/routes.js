@@ -1,8 +1,22 @@
-// main-routes.js
-angular.module('app.routes', ["ui.router"])
+(function () {
 
-    .config(function($stateProvider, $urlRouterProvider) {
+    function config($stateProvider, $urlRouterProvider, $logProvider, $httpProvider) {
+        $urlRouterProvider.otherwise('/');
+        $logProvider.debugEnabled(true);
+        $httpProvider.interceptors.push('httpInterceptor');
         $stateProvider
+            .state('root', {
+                views: {
+                    'header': {
+                        templateUrl: 'src/common/header.tpl.html',
+                        controller: 'HeaderCtrl'
+                    },
+                    'footer': {
+                        templateUrl: 'src/common/footer.tpl.html',
+                        controller: 'FooterCtrl'
+                    }
+                }
+            })
             .state('root.home', {
                 url: '/',
                 views: {
@@ -35,4 +49,9 @@ angular.module('app.routes', ["ui.router"])
                     }
                 }
             })
-    });
+    }
+
+// main-routes.js
+    angular.module('app.routes', ["ui.router", "templates", 'common.interceptors.http'])
+        .config(config);
+})();
