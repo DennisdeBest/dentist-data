@@ -260,6 +260,8 @@ module.run(["$templateCache", function($templateCache) {
     "    <h3>Speed up your <strong>bite !</strong> <span ng-bind=\"test\"></span> <br><span ng-bind=\"testRes\"></span></h3>\n" +
     "    <h4>{{\"Truncate textyguygyuyg\" | trunc: 5}}</h4>\n" +
     "    <h2 ng-bind=\"returning\"></h2>\n" +
+    "    <button monkey-click time=1500 ></button>\n" +
+    "    <button monkey-click time=3000 ></button>\n" +
     "  </div>\n" +
     "</div>\n" +
     "<div class=\"pure-g island\">\n" +
