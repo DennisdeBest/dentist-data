@@ -25,6 +25,7 @@
       'common.services.returningvisitor',
       'common.directives.version',
       'common.directives.monkeyClick',
+      'common.directives.transclude',
       'common.filters.uppercase',
       'common.filters.trunc',
     ])
