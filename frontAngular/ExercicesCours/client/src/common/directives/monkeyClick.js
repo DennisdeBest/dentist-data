@@ -25,12 +25,12 @@
             var linkFunction = function($scope, element, attributes) {
                 element.html($scope.time);
                 element.css("border", "1px black outset");
-                element.bind('click', clickingCallback($scope.time));
+                element.bind('click', clickingCallback);
             };
 
-            var clickingCallback = function (time) {
+            var clickingCallback = function () {
                 element.css("border", "1px black inset");
-                $timeout(function(){element.css("border", "1px black outset")}, time)
+                $timeout(function(){element.css("border", "1px black outset")}, element.html())
             };
             return linkFunction;
         };
