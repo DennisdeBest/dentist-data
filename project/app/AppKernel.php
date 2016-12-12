@@ -22,7 +22,8 @@ class AppKernel extends Kernel
             new \Vich\UploaderBundle\VichUploaderBundle(),
             new \Ivory\CKEditorBundle\IvoryCKEditorBundle(),
             new \JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
-            new \JMS\TranslationBundle\JMSTranslationBundle()
+            new \JMS\TranslationBundle\JMSTranslationBundle(),
+ 	    new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

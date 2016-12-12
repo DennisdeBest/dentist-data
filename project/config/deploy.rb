@@ -6,6 +6,8 @@ set :repo_url, 'git@github.com:DennisdeBest/dentist-data.git'
 
 # To make safe to deplyo to same server
 set :tmp_dir, "/tmp/dentist-data"
+set :symfony_console_path, "project/bin/console"
+set :symfony_env, "dev"
 
 # Default branch is :master
 #ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -13,7 +15,13 @@ set :branch, ENV['BRANCH'] || "develop"
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/var/www/dev.dentist-data.fr'
 
+# Symfony application path
+set :app_path,"project/app"
 
+# Symfony web path
+set :web_path,"project/web"
+
+fetch(:default_env).merge!(PATH: '$PATH:/opt/php-7.0.1/bin/php')
 # Default value for :scm is :git
 # set :scm, :git
 
@@ -28,8 +36,8 @@ set :deploy_to, '/var/www/dev.dentist-data.fr'
 # set :pty, true
 
 # Default value for :linked_files is []
-set :linked_files, fetch(:linked_files, []).push('app/config/parameters.yml')
-
+set :linked_files, fetch(:linked_files, []).push('project/app/config/parameters.yml')
+#set :linked_files, %w(app/config/parameters.yml project/app/config/parameters.yml)
 # Default value for linked_dirs is []
 set :linked_dirs, fetch(:linked_dirs, []).push('var')
 
@@ -38,6 +46,10 @@ set :linked_dirs, fetch(:linked_dirs, []).push('var')
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+set :composer_install_flags, -> { "--no-interaction --optimize-autoloader --working-dir=#{fetch(:release_path)}/project" }
+SSHKit.config.command_map[:composer] = "/opt/php-7.0.1/bin/php /usr/local/bin/composer"
+SSHKit.config.command_map[:symfony] = "/opt/php-7.0.1/bin/php project/bin/console"
+SSHKit.config.command_map[:php] = "/opt/php-7.0.1/bin/php"
 
 after 'deploy:starting', 'composer:install_executable'
 after 'deploy:updated', 'symfony:assets:install'
@@ -60,7 +72,8 @@ end
 namespace :deploy do
   task :migrate do
     on roles(:db) do
-      symfony_console('doctrine:migrations:migrate', '--no-interaction')
+      invoke 'symfony:console', 'doctrine:migrations:migrate', '--no-interaction', 'db'
+      #symfony_console 'doctrine:migrations:migrate', '--no-interaction'
     end
   end
 end
