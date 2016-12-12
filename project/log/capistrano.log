@@ -1,0 +1,709 @@
+# Logfile created on 2016-12-12 14:44:54 +0100 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:44:54 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9430c2fb] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [9430c2fb] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [9430c2fb] Finished in 1.646 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [fdd6e2f1] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [fdd6e2f1] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [fdd6e2f1] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [9b6c1fc6] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [9b6c1fc6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [9b6c1fc6] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [9b6c1fc6] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [9b6c1fc6] Finished in 1.841 seconds with exit status 0 (successful).
+  INFO [e18c1cf8] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data/shared /var/www/dev.dentist-data/releases as exploit@dev.dentist-data.fr
+ DEBUG [e18c1cf8] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data/shared /var/www/dev.dentist-data/releases
+ DEBUG [e18c1cf8] 	mkdir: 
+ DEBUG [e18c1cf8] 	impossible de créer le répertoire « /var/www/dev.dentist-data »
+ DEBUG [e18c1cf8] 	: Permission non accordée
+ DEBUG [e18c1cf8] 	
+ DEBUG [e18c1cf8] 	mkdir: 
+ DEBUG [e18c1cf8] 	impossible de créer le répertoire « /var/www/dev.dentist-data »
+ DEBUG [e18c1cf8] 	: Permission non accordée
+ DEBUG [e18c1cf8] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:45:33 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5865f883] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [5865f883] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [5865f883] Finished in 1.071 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [25f977cb] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [25f977cb] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [25f977cb] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [91b8e0b6] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [91b8e0b6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [91b8e0b6] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [91b8e0b6] Finished in 1.785 seconds with exit status 0 (successful).
+  INFO [213d62a7] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [213d62a7] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+ DEBUG [213d62a7] 	mkdir: 
+ DEBUG [213d62a7] 	impossible de créer le répertoire « /var/www/dev.dentist-data.fr/shared »
+ DEBUG [213d62a7] 	: Permission non accordée
+ DEBUG [213d62a7] 	
+ DEBUG [213d62a7] 	mkdir: 
+ DEBUG [213d62a7] 	impossible de créer le répertoire « /var/www/dev.dentist-data.fr/releases »
+ DEBUG [213d62a7] 	: Permission non accordée
+ DEBUG [213d62a7] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:46:41 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8c09b7b5] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [8c09b7b5] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [8c09b7b5] Finished in 1.785 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [43d2a770] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [43d2a770] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [43d2a770] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [47a77ad7] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [47a77ad7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [47a77ad7] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [47a77ad7] Finished in 1.634 seconds with exit status 0 (successful).
+  INFO [5c9b7acd] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [5c9b7acd] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [5c9b7acd] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [ae09c6df] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [ae09c6df] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [ae09c6df] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [bc3e58e1] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [bc3e58e1] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [bc3e58e1] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [de592ea5] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [de592ea5] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [de592ea5] Finished in 0.097 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:48:40 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2ec931aa] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [2ec931aa] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [2ec931aa] Finished in 1.057 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [325d66e5] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [325d66e5] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [325d66e5] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [1eb0a71e] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [1eb0a71e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [1eb0a71e] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [1eb0a71e] Finished in 1.961 seconds with exit status 0 (successful).
+  INFO [70c6556c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [70c6556c] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [70c6556c] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [6030662c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [6030662c] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [6030662c] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [2bf2d3bc] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [2bf2d3bc] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [2bf2d3bc] Finished in 0.060 seconds with exit status 0 (successful).
+ DEBUG [8092f854] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [8092f854] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [8092f854] Finished in 0.075 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:49:49 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [896a3525] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [896a3525] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [896a3525] Finished in 0.548 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [642c891e] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [642c891e] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [642c891e] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [cfe1fb5a] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [cfe1fb5a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [cfe1fb5a] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [cfe1fb5a] Finished in 1.508 seconds with exit status 0 (successful).
+  INFO [99ce4076] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [99ce4076] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [99ce4076] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [07a2791c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [07a2791c] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [07a2791c] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [10965ab9] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [10965ab9] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [10965ab9] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [41c8434c] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [41c8434c] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [41c8434c] Finished in 0.099 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:50:37 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6ebd1546] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [6ebd1546] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [6ebd1546] Finished in 0.466 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [593a55b9] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [593a55b9] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [593a55b9] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [d4ba3e57] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [d4ba3e57] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [d4ba3e57] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [d4ba3e57] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [d4ba3e57] Finished in 1.770 seconds with exit status 0 (successful).
+  INFO [b43b96ad] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [b43b96ad] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [b43b96ad] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [992d83ee] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [992d83ee] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [992d83ee] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO [3e6691d2] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [3e6691d2] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [3e6691d2] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [9836d3a0] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [9836d3a0] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [9836d3a0] Finished in 0.065 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:50:53 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e6a4fd99] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [e6a4fd99] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [e6a4fd99] Finished in 0.385 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [6ad3be77] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [6ad3be77] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [6ad3be77] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [8ab1f6df] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [8ab1f6df] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [8ab1f6df] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [8ab1f6df] Finished in 2.090 seconds with exit status 0 (successful).
+  INFO [3be099d2] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [3be099d2] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [3be099d2] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [38cfa7d2] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [38cfa7d2] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [38cfa7d2] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [3cfa821d] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [3cfa821d] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [3cfa821d] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [935be32b] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [935be32b] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [935be32b] Finished in 0.093 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:52:05 +0100 cap staging deploy BRANCH=develop
+  INFO ---------------------------------------------------------------------------
+  INFO [98d4bddc] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [98d4bddc] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [98d4bddc] Finished in 2.614 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [0f8d01c8] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [0f8d01c8] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [0f8d01c8] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [255160c8] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [255160c8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [255160c8] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [255160c8] Finished in 1.682 seconds with exit status 0 (successful).
+  INFO [3c8ea35a] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [3c8ea35a] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [3c8ea35a] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [9e0cc3d1] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [9e0cc3d1] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [9e0cc3d1] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [c81a776e] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [c81a776e] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [c81a776e] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [21d8ba70] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [21d8ba70] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [21d8ba70] Finished in 0.099 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:52:50 +0100 cap staging deploy BRANCH=origin/develop
+  INFO ---------------------------------------------------------------------------
+  INFO [f132c58f] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [f132c58f] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [f132c58f] Finished in 0.731 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [47dd4726] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [47dd4726] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [47dd4726] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [b3a98993] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [b3a98993] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [b3a98993] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [b3a98993] Finished in 1.609 seconds with exit status 0 (successful).
+  INFO [68c070f9] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [68c070f9] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [68c070f9] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [6161f977] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [6161f977] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [6161f977] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [192b7aae] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [192b7aae] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [192b7aae] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [0e611781] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [0e611781] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [0e611781] Finished in 0.099 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:54:35 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [be5739e8] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [be5739e8] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [be5739e8] Finished in 0.485 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [b1808c6d] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [b1808c6d] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [b1808c6d] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [bbdf1e80] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [bbdf1e80] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [bbdf1e80] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [bbdf1e80] Finished in 1.688 seconds with exit status 0 (successful).
+  INFO [48a455f2] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [48a455f2] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [48a455f2] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [03d08c11] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [03d08c11] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [03d08c11] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [a5ca62d5] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [a5ca62d5] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [a5ca62d5] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [2053b25c] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [2053b25c] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [2053b25c] Finished in 0.094 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 14:59:47 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bcf402d5] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [bcf402d5] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [bcf402d5] Finished in 0.459 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [4f40c4ec] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [4f40c4ec] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [4f40c4ec] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [0b94003f] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [0b94003f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [0b94003f] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [0b94003f] Finished in 1.790 seconds with exit status 0 (successful).
+  INFO [0e3d3d54] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [0e3d3d54] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [0e3d3d54] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [3ffbf43c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [3ffbf43c] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [3ffbf43c] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [aeb0d9ee] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [aeb0d9ee] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [aeb0d9ee] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [234faf21] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [234faf21] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [234faf21] Finished in 0.099 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml does not exist on dev.dentist-data.fr
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:14:27 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [29d7068e] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [29d7068e] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [29d7068e] Finished in 0.536 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [6795700e] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [6795700e] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [6795700e] Finished in 0.318 seconds with exit status 0 (successful).
+  INFO [d2d77855] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [d2d77855] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [d2d77855] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [d2d77855] Finished in 1.722 seconds with exit status 0 (successful).
+  INFO [4fbe47de] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [4fbe47de] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [4fbe47de] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [2ee99194] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [2ee99194] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [2ee99194] Finished in 0.358 seconds with exit status 0 (successful).
+  INFO [7dca741c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [7dca741c] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [7dca741c] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [dde92ca3] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [dde92ca3] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [dde92ca3] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [9150651c] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [9150651c] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [9150651c] Finished in 0.098 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:29:23 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b18a7775] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [b18a7775] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [b18a7775] Finished in 0.457 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [fe0d848a] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [fe0d848a] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [fe0d848a] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [e8af6b34] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [e8af6b34] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [e8af6b34] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [e8af6b34] Finished in 1.833 seconds with exit status 0 (successful).
+  INFO [92799264] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [92799264] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [92799264] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [3db7a503] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [3db7a503] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [3db7a503] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [b61f819a] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [b61f819a] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [b61f819a] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [bcc104ab] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [bcc104ab] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [bcc104ab] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [21eb073d] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [21eb073d] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [21eb073d] Finished in 0.063 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:31:10 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c94a8f0e] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [c94a8f0e] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [c94a8f0e] Finished in 1.275 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [2e0d405b] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [2e0d405b] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [2e0d405b] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [83565d6b] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [83565d6b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [83565d6b] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [83565d6b] Finished in 1.738 seconds with exit status 0 (successful).
+  INFO [6c20ba42] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [6c20ba42] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [6c20ba42] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [d56053d8] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [d56053d8] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [d56053d8] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [5002b8c3] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [5002b8c3] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [5002b8c3] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [e2383f6d] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [e2383f6d] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [e2383f6d] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [56c0fb01] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [56c0fb01] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [56c0fb01] Finished in 0.095 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:31:39 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5cd812a2] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [5cd812a2] Command: /usr/bin/env mkdir -p /tmp/dentist-data
+  INFO [5cd812a2] Finished in 1.593 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [0e63de06] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [0e63de06] Command: /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh
+  INFO [0e63de06] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [4c56a69f] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [4c56a69f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [4c56a69f] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [4c56a69f] Finished in 1.809 seconds with exit status 0 (successful).
+  INFO [42b744d0] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [42b744d0] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases
+  INFO [42b744d0] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [d1682625] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [d1682625] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/var
+  INFO [d1682625] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [572bca62] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [572bca62] Command: /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config
+  INFO [572bca62] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [a57efbe7] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [a57efbe7] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [a57efbe7] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [382b8405] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [382b8405] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [382b8405] Finished in 0.097 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:33:09 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0c936e40] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [0c936e40] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/dentist-data )
+  INFO [0c936e40] Finished in 2.186 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [ace419db] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [ace419db] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh )
+  INFO [ace419db] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [a8db7b74] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [a8db7b74] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [a8db7b74] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [a8db7b74] Finished in 1.645 seconds with exit status 0 (successful).
+  INFO [938bc35a] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [938bc35a] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases )
+  INFO [938bc35a] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [a5827a58] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [a5827a58] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var )
+  INFO [a5827a58] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [fe372bcd] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [fe372bcd] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config )
+  INFO [fe372bcd] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [b48e157a] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [b48e157a] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [b48e157a] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG [49ae27bf] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [49ae27bf] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [49ae27bf] Finished in 0.093 seconds with exit status 1 (failed).
+ DEBUG [ae84d257] Running if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [ae84d257] Command: if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi
+ DEBUG [ae84d257] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [c7ed3b65] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [c7ed3b65] Command: cd /var/www/dev.dentist-data.fr/shared && ( export SYMFONY_ENV="prod" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [c7ed3b65] Finished in 0.099 seconds with exit status 1 (failed).
+  INFO [57df428c] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  as exploit@dev.dentist-data.fr
+ DEBUG [57df428c] Command: cd /var/www/dev.dentist-data.fr/shared && ( export SYMFONY_ENV="prod" ; /usr/bin/env curl -s https://getcomposer.org/installer | php  )
+ DEBUG [57df428c] 	All settings correct for using Composer
+ DEBUG [57df428c] 	Downloading 1.2.4...
+ DEBUG [57df428c] 	
+Composer successfully installed to: /var/www/dev.dentist-data.fr/shared/composer.phar
+ DEBUG [57df428c] 	
+Use it: php composer.phar
+  INFO [57df428c] Finished in 0.887 seconds with exit status 0 (successful).
+ DEBUG [921b4c23] Running [ -f /var/www/dev.dentist-data.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [921b4c23] Command: [ -f /var/www/dev.dentist-data.fr/repo/HEAD ]
+ DEBUG [921b4c23] Finished in 0.080 seconds with exit status 1 (failed).
+ DEBUG [e0663acb] Running if test ! -d /var/www/dev.dentist-data.fr; then echo "Directory does not exist '/var/www/dev.dentist-data.fr'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [e0663acb] Command: if test ! -d /var/www/dev.dentist-data.fr; then echo "Directory does not exist '/var/www/dev.dentist-data.fr'" 1>&2; false; fi
+ DEBUG [e0663acb] Finished in 0.309 seconds with exit status 0 (successful).
+  INFO [e42420fd] Running /usr/bin/env git clone --mirror git@github.com:DennisdeBest/dentist-data.git /var/www/dev.dentist-data.fr/repo as exploit@dev.dentist-data.fr
+ DEBUG [e42420fd] Command: cd /var/www/dev.dentist-data.fr && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git clone --mirror git@github.com:DennisdeBest/dentist-data.git /var/www/dev.dentist-data.fr/repo )
+ DEBUG [e42420fd] 	Clonage dans le dépôt nu '/var/www/dev.dentist-data.fr/repo'
+  INFO [e42420fd] Finished in 14.146 seconds with exit status 0 (successful).
+ DEBUG [149bb73d] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [149bb73d] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [149bb73d] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [4b1f1cf7] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [4b1f1cf7] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4b1f1cf7] 	Récupération de origin
+  INFO [4b1f1cf7] Finished in 1.779 seconds with exit status 0 (successful).
+ DEBUG [a1addde3] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a1addde3] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [a1addde3] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [cbdf126c] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316 as exploit@dev.dentist-data.fr
+ DEBUG [cbdf126c] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316 )
+  INFO [cbdf126c] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [ba12663d] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161212143316 as exploit@dev.dentist-data.fr
+ DEBUG [ba12663d] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161212143316 )
+  INFO [ba12663d] Finished in 0.189 seconds with exit status 0 (successful).
+ DEBUG [cea191cd] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [cea191cd] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [cea191cd] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [6ef16e4b] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [6ef16e4b] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [6ef16e4b] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7
+ DEBUG [6ef16e4b] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [a937f395] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [a937f395] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi
+ DEBUG [a937f395] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [cf359c6a] Running /usr/bin/env echo "3b46fdc402b8f20488effb3ba5bcd05efa8090c7" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [cf359c6a] Command: cd /var/www/dev.dentist-data.fr/releases/20161212143316 && ( export SYMFONY_ENV="prod" ; /usr/bin/env echo "3b46fdc402b8f20488effb3ba5bcd05efa8090c7" >> REVISION )
+  INFO [cf359c6a] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [45dffd39] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316/app/config as exploit@dev.dentist-data.fr
+ DEBUG [45dffd39] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316/app/config )
+  INFO [45dffd39] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [3a414892] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [3a414892] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml ]
+ DEBUG [3a414892] Finished in 0.097 seconds with exit status 1 (failed).
+ DEBUG [4be041d3] Running [ -f /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [4be041d3] Command: [ -f /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml ]
+ DEBUG [4be041d3] Finished in 0.102 seconds with exit status 1 (failed).
+  INFO [78c897be] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [78c897be] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161212143316/app/config/parameters.yml )
+  INFO [78c897be] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [fdf24d67] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316/app /var/www/dev.dentist-data.fr/releases/20161212143316/web /var/www/dev.dentist-data.fr/releases/20161212143316 as exploit@dev.dentist-data.fr
+ DEBUG [fdf24d67] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212143316/app /var/www/dev.dentist-data.fr/releases/20161212143316/web /var/www/dev.dentist-data.fr/releases/20161212143316 )
+  INFO [fdf24d67] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [baeb65b4] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [baeb65b4] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs ]
+ DEBUG [baeb65b4] Finished in 0.095 seconds with exit status 1 (failed).
+ DEBUG [c4a42572] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [c4a42572] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs ]
+ DEBUG [c4a42572] Finished in 0.068 seconds with exit status 1 (failed).
+  INFO [7ec30646] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [7ec30646] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161212143316/app/logs )
+  INFO [7ec30646] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [e51993b1] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [e51993b1] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads ]
+ DEBUG [e51993b1] Finished in 0.090 seconds with exit status 1 (failed).
+ DEBUG [68d262a4] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [68d262a4] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads ]
+ DEBUG [68d262a4] Finished in 0.100 seconds with exit status 1 (failed).
+  INFO [11869a2c] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [11869a2c] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161212143316/web/uploads )
+  INFO [11869a2c] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [39cc12c1] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/var ] as exploit@dev.dentist-data.fr
+ DEBUG [39cc12c1] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212143316/var ]
+ DEBUG [39cc12c1] Finished in 0.096 seconds with exit status 1 (failed).
+ DEBUG [27df98d0] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/var ] as exploit@dev.dentist-data.fr
+ DEBUG [27df98d0] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/var ]
+ DEBUG [27df98d0] Finished in 0.100 seconds with exit status 1 (failed).
+  INFO [58d205fd] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161212143316/var as exploit@dev.dentist-data.fr
+ DEBUG [58d205fd] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161212143316/var )
+  INFO [58d205fd] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [89048d39] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [89048d39] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi
+ DEBUG [89048d39] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [6771cd12] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [6771cd12] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212143316/app/cache ]
+ DEBUG [6771cd12] Finished in 0.101 seconds with exit status 1 (failed).
+  INFO [ae800dbb] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [ae800dbb] Command: cd /var/www/dev.dentist-data.fr/releases/20161212143316 && ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [ae800dbb] 	mkdir: création du répertoire « app/cache »
+  INFO [ae800dbb] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [e7a15174] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [e7a15174] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212143316; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212143316'" 1>&2; false; fi
+ DEBUG [e7a15174] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [15f8950c] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as exploit@dev.dentist-data.fr
+ DEBUG [15f8950c] Command: cd /var/www/dev.dentist-data.fr/releases/20161212143316 && ( export SYMFONY_ENV="prod" ; /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-12 15:43:44 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bd7f1c97] Running /usr/bin/env mkdir -p /tmp/dentist-data as exploit@dev.dentist-data.fr
+ DEBUG [bd7f1c97] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/dentist-data )
+  INFO [bd7f1c97] Finished in 0.989 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 0.0%
+  INFO Uploading /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh 100.0%
+  INFO [28019fc6] Running /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh as exploit@dev.dentist-data.fr
+ DEBUG [28019fc6] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod 700 /tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh )
+  INFO [28019fc6] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [dd4a2b80] Running /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git as exploit@dev.dentist-data.fr
+ DEBUG [dd4a2b80] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DennisdeBest/dentist-data.git )
+ DEBUG [dd4a2b80] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7	refs/heads/develop
+3374b01d5d02f203fd44b54413dd455bcf979488	refs/heads/tazma
+  INFO [dd4a2b80] Finished in 1.705 seconds with exit status 0 (successful).
+  INFO [bf7cb462] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases as exploit@dev.dentist-data.fr
+ DEBUG [bf7cb462] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared /var/www/dev.dentist-data.fr/releases )
+  INFO [bf7cb462] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [12e6ada0] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var as exploit@dev.dentist-data.fr
+ DEBUG [12e6ada0] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/shared/var )
+  INFO [12e6ada0] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [527c6155] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config as exploit@dev.dentist-data.fr
+ DEBUG [527c6155] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/shared/app/config )
+  INFO [527c6155] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [0dcc5066] Running [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [0dcc5066] Command: [ -f /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml ]
+ DEBUG [0dcc5066] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [a322fe1c] Running [ -f /var/www/dev.dentist-data.fr/current/REVISION ] as exploit@dev.dentist-data.fr
+ DEBUG [a322fe1c] Command: [ -f /var/www/dev.dentist-data.fr/current/REVISION ]
+ DEBUG [a322fe1c] Finished in 0.101 seconds with exit status 1 (failed).
+ DEBUG [e45552f8] Running if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [e45552f8] Command: if test ! -d /var/www/dev.dentist-data.fr/shared; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/shared'" 1>&2; false; fi
+ DEBUG [e45552f8] Finished in 0.306 seconds with exit status 0 (successful).
+ DEBUG [b10f55f2] Running /usr/bin/env [ -e composer.phar ] as exploit@dev.dentist-data.fr
+ DEBUG [b10f55f2] Command: cd /var/www/dev.dentist-data.fr/shared && ( export SYMFONY_ENV="prod" ; /usr/bin/env [ -e composer.phar ] )
+ DEBUG [b10f55f2] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [bb8bc736] Running [ -f /var/www/dev.dentist-data.fr/repo/HEAD ] as exploit@dev.dentist-data.fr
+ DEBUG [bb8bc736] Command: [ -f /var/www/dev.dentist-data.fr/repo/HEAD ]
+ DEBUG [bb8bc736] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/dev.dentist-data.fr/repo
+ DEBUG [8e0f61dd] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [8e0f61dd] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [8e0f61dd] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [8b376061] Running /usr/bin/env git remote update --prune as exploit@dev.dentist-data.fr
+ DEBUG [8b376061] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8b376061] 	Récupération de origin
+  INFO [8b376061] Finished in 1.817 seconds with exit status 0 (successful).
+ DEBUG [8b616c0e] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [8b616c0e] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [8b616c0e] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [c4b9f6f7] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349 as exploit@dev.dentist-data.fr
+ DEBUG [c4b9f6f7] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349 )
+  INFO [c4b9f6f7] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [b357e9a8] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161212144349 as exploit@dev.dentist-data.fr
+ DEBUG [b357e9a8] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.dentist-data.fr/releases/20161212144349 )
+  INFO [b357e9a8] Finished in 0.194 seconds with exit status 0 (successful).
+ DEBUG [37ca6c3f] Running if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [37ca6c3f] Command: if test ! -d /var/www/dev.dentist-data.fr/repo; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/repo'" 1>&2; false; fi
+ DEBUG [37ca6c3f] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [eb3babcf] Running /usr/bin/env git rev-list --max-count=1 develop as exploit@dev.dentist-data.fr
+ DEBUG [eb3babcf] Command: cd /var/www/dev.dentist-data.fr/repo && ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/dentist-data/git-ssh-dentist-data-staging-dennisdebest.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [eb3babcf] 	3b46fdc402b8f20488effb3ba5bcd05efa8090c7
+ DEBUG [eb3babcf] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [446177bb] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [446177bb] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi
+ DEBUG [446177bb] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [f85e7392] Running /usr/bin/env echo "3b46fdc402b8f20488effb3ba5bcd05efa8090c7" >> REVISION as exploit@dev.dentist-data.fr
+ DEBUG [f85e7392] Command: cd /var/www/dev.dentist-data.fr/releases/20161212144349 && ( export SYMFONY_ENV="prod" ; /usr/bin/env echo "3b46fdc402b8f20488effb3ba5bcd05efa8090c7" >> REVISION )
+  INFO [f85e7392] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [da397b23] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349/app/config as exploit@dev.dentist-data.fr
+ DEBUG [da397b23] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349/app/config )
+  INFO [da397b23] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [7e17f11d] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [7e17f11d] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml ]
+ DEBUG [7e17f11d] Finished in 0.093 seconds with exit status 1 (failed).
+ DEBUG [d526537a] Running [ -f /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml ] as exploit@dev.dentist-data.fr
+ DEBUG [d526537a] Command: [ -f /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml ]
+ DEBUG [d526537a] Finished in 0.099 seconds with exit status 1 (failed).
+  INFO [cff2cf29] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml as exploit@dev.dentist-data.fr
+ DEBUG [cff2cf29] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/config/parameters.yml /var/www/dev.dentist-data.fr/releases/20161212144349/app/config/parameters.yml )
+  INFO [cff2cf29] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [9df72104] Running /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349/app /var/www/dev.dentist-data.fr/releases/20161212144349/web /var/www/dev.dentist-data.fr/releases/20161212144349 as exploit@dev.dentist-data.fr
+ DEBUG [9df72104] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/dev.dentist-data.fr/releases/20161212144349/app /var/www/dev.dentist-data.fr/releases/20161212144349/web /var/www/dev.dentist-data.fr/releases/20161212144349 )
+  INFO [9df72104] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [2db27310] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [2db27310] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs ]
+ DEBUG [2db27310] Finished in 0.099 seconds with exit status 1 (failed).
+ DEBUG [b9fdd294] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs ] as exploit@dev.dentist-data.fr
+ DEBUG [b9fdd294] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs ]
+ DEBUG [b9fdd294] Finished in 0.098 seconds with exit status 1 (failed).
+  INFO [13a48feb] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs as exploit@dev.dentist-data.fr
+ DEBUG [13a48feb] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/app/logs /var/www/dev.dentist-data.fr/releases/20161212144349/app/logs )
+  INFO [13a48feb] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [a43f0464] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [a43f0464] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads ]
+ DEBUG [a43f0464] Finished in 0.099 seconds with exit status 1 (failed).
+ DEBUG [73616790] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads ] as exploit@dev.dentist-data.fr
+ DEBUG [73616790] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads ]
+ DEBUG [73616790] Finished in 0.101 seconds with exit status 1 (failed).
+  INFO [6c6295ec] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads as exploit@dev.dentist-data.fr
+ DEBUG [6c6295ec] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/web/uploads /var/www/dev.dentist-data.fr/releases/20161212144349/web/uploads )
+  INFO [6c6295ec] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [c24e9b57] Running [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/var ] as exploit@dev.dentist-data.fr
+ DEBUG [c24e9b57] Command: [ -L /var/www/dev.dentist-data.fr/releases/20161212144349/var ]
+ DEBUG [c24e9b57] Finished in 0.099 seconds with exit status 1 (failed).
+ DEBUG [5039db0b] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/var ] as exploit@dev.dentist-data.fr
+ DEBUG [5039db0b] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/var ]
+ DEBUG [5039db0b] Finished in 0.104 seconds with exit status 1 (failed).
+  INFO [7cd91874] Running /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161212144349/var as exploit@dev.dentist-data.fr
+ DEBUG [7cd91874] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env ln -s /var/www/dev.dentist-data.fr/shared/var /var/www/dev.dentist-data.fr/releases/20161212144349/var )
+  INFO [7cd91874] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [0f4d8359] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [0f4d8359] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi
+ DEBUG [0f4d8359] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [25064251] Running [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/app/cache ] as exploit@dev.dentist-data.fr
+ DEBUG [25064251] Command: [ -d /var/www/dev.dentist-data.fr/releases/20161212144349/app/cache ]
+ DEBUG [25064251] Finished in 0.097 seconds with exit status 1 (failed).
+  INFO [4405c186] Running /usr/bin/env mkdir -pv app/cache as exploit@dev.dentist-data.fr
+ DEBUG [4405c186] Command: cd /var/www/dev.dentist-data.fr/releases/20161212144349 && ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -pv app/cache )
+ DEBUG [4405c186] 	mkdir: création du répertoire « app/cache »
+  INFO [4405c186] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [891f681a] Running if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi as exploit@dev.dentist-data.fr
+ DEBUG [891f681a] Command: if test ! -d /var/www/dev.dentist-data.fr/releases/20161212144349; then echo "Directory does not exist '/var/www/dev.dentist-data.fr/releases/20161212144349'" 1>&2; false; fi
+ DEBUG [891f681a] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [34104f45] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as exploit@dev.dentist-data.fr
+ DEBUG [34104f45] Command: cd /var/www/dev.dentist-data.fr/releases/20161212144349 && ( export SYMFONY_ENV="prod" ; /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader )

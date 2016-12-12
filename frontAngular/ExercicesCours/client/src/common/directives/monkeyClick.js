@@ -25,12 +25,11 @@
             var linkFunction = function($scope, element, attributes) {
                 element.html($scope.time);
                 element.css("border", "1px black outset");
-                element.bind('click', clickingCallback);
-            };
-
-            var clickingCallback = function () {
-                element.css("border", "1px black inset");
-                $timeout(function(){element.css("border", "1px black outset")}, element.html())
+                element.bind('click', function(event){
+                    event.stopImmediatePropagation();
+                    element.css("border", "1px black inset");
+                    $timeout(function(){element.css("border", "1px black outset")}, element.html())
+                });
             };
             return linkFunction;
         };
