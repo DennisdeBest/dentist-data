@@ -278,6 +278,12 @@ module.run(["$templateCache", function($templateCache) {
     "\n" +
     "<div class=\"pure-g\">\n" +
     "</div>\n" +
+    "\n" +
+    "<div ng-controller=\"TranscludeController\">\n" +
+    "  <input ng-model=\"title\" aria-label=\"title\"> <br/>\n" +
+    "  <textarea ng-model=\"text\" aria-label=\"text\"></textarea> <br/>\n" +
+    "  <app-transclude title=\"{{title}}\"><span>{{text}}</span></app-transclude>\n" +
+    "</div>\n" +
     "");
 }]);
 })();

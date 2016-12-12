@@ -43,6 +43,7 @@
       'common.services.data',
       'common.services.returningvisitor',
       'common.directives.version',
+      'common.directives.transclude',
       'common.filters.uppercase',
       'common.filters.trunc',
       'common.interceptors.http',

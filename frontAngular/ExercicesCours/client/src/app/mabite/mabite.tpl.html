@@ -21,3 +21,9 @@
 
 <div class="pure-g">
 </div>
+
+<div ng-controller="TranscludeController">
+  <input ng-model="title" aria-label="title"> <br/>
+  <textarea ng-model="text" aria-label="text"></textarea> <br/>
+  <app-transclude title="{{title}}"><span>{{text}}</span></app-transclude>
+</div>
