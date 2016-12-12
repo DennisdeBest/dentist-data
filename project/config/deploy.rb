@@ -40,6 +40,15 @@ set :linked_files, fetch(:linked_files, []).push('project/app/config/parameters.
 #set :linked_files, %w(app/config/parameters.yml project/app/config/parameters.yml)
 # Default value for linked_dirs is []
 set :linked_dirs, fetch(:linked_dirs, []).push('var')
+# Dirs that need to be writable by the HTTP Server (i.e. cache, log dirs)
+set :file_permissions_paths,         [fetch(:log_path), fetch(:cache_path)]
+
+# Name used by the Web Server (i.e. www-data for Apache)
+set :file_permissions_users, ['www-data']
+
+# Name used by the Web Server (i.e. www-data for Apache)
+set :webserver_user,        "www-data"
+set :controllers_to_clear, [""]
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
@@ -72,7 +81,7 @@ end
 namespace :deploy do
   task :migrate do
     on roles(:db) do
-      invoke 'symfony:console', 'doctrine:migrations:migrate', '--no-interaction', 'db'
+      invoke 'symfony:console', 'doctrine:migrations:migrate  --no-interaction; true'
       #symfony_console 'doctrine:migrations:migrate', '--no-interaction'
     end
   end
