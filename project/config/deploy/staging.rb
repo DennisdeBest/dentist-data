@@ -7,8 +7,6 @@ server 'dev.dentist-data.fr', user: 'exploit', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-set :branch, 'develop'
-
 # role-based syntax
 # ==================
 

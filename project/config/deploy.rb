@@ -41,10 +41,11 @@ set :linked_files, fetch(:linked_files, []).push('project/app/config/parameters.
 # Default value for linked_dirs is []
 set :linked_dirs, fetch(:linked_dirs, []).push('var')
 # Dirs that need to be writable by the HTTP Server (i.e. cache, log dirs)
-set :file_permissions_paths,         [fetch(:log_path), fetch(:cache_path)]
+set :file_permissions_paths,['project/var/cache/dev/']
 
 # Name used by the Web Server (i.e. www-data for Apache)
 set :file_permissions_users, ['www-data']
+set :webserver_user, "www-data"
 
 # Name used by the Web Server (i.e. www-data for Apache)
 set :webserver_user,        "www-data"
