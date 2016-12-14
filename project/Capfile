@@ -10,6 +10,8 @@ require 'capistrano/composer'
 # Include symfony plugin
 require 'capistrano/symfony'
 
+require 'capistrano/file-permissions'
+
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"

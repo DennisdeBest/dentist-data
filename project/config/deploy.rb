@@ -41,14 +41,15 @@ set :linked_files, fetch(:linked_files, []).push('project/app/config/parameters.
 # Default value for linked_dirs is []
 set :linked_dirs, fetch(:linked_dirs, []).push('var')
 # Dirs that need to be writable by the HTTP Server (i.e. cache, log dirs)
-set :file_permissions_paths,['project/var/cache/dev/']
+set :file_permissions_paths,['project/var/']
 
 # Name used by the Web Server (i.e. www-data for Apache)
 set :file_permissions_users, ['www-data']
 set :webserver_user, "www-data"
+set :file_permissions_paths, ["project/var/logs", "project/var/cache"]
+set :file_permissions_users, ["www-data"]
 
 # Name used by the Web Server (i.e. www-data for Apache)
-set :webserver_user,        "www-data"
 set :controllers_to_clear, [""]
 
 # Default value for default_env is {}
@@ -62,8 +63,11 @@ SSHKit.config.command_map[:symfony] = "/opt/php-7.0.1/bin/php project/bin/consol
 SSHKit.config.command_map[:php] = "/opt/php-7.0.1/bin/php"
 
 after 'deploy:starting', 'composer:install_executable'
+after 'deploy:updated', "deploy:set_permissions:acl"
 after 'deploy:updated', 'symfony:assets:install'
 after 'deploy:updated', 'deploy:migrate'
+
+
 
 namespace :deploy do
 
