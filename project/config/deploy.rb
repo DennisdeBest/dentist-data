@@ -87,6 +87,7 @@ namespace :deploy do
   task :migrate do
     on roles(:db) do
       invoke 'symfony:console', 'doctrine:migrations:migrate  --no-interaction; true'
+      invoke 'symfony:console', 'assetic:dump'
       #symfony_console 'doctrine:migrations:migrate', '--no-interaction'
     end
   end
