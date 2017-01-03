@@ -7,12 +7,7 @@ set :repo_url, 'git@github.com:DennisdeBest/dentist-data.git'
 # To make safe to deplyo to same server
 set :tmp_dir, "/tmp/dentist-data"
 set :symfony_console_path, "project/bin/console"
-set :symfony_env, "dev"
 
-# Default branch is :master
-#ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-set :branch, ENV['BRANCH'] || "develop"
-# Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/var/www/dev.dentist-data.fr'
 
 # Symfony application path
@@ -63,8 +58,8 @@ SSHKit.config.command_map[:symfony] = "/opt/php-7.0.1/bin/php project/bin/consol
 SSHKit.config.command_map[:php] = "/opt/php-7.0.1/bin/php"
 
 after 'deploy:starting', 'composer:install_executable'
-after 'deploy:updated', "deploy:set_permissions:acl"
-after 'deploy:updated', 'symfony:assets:install'
+after 'deploy:updated', 'deploy:set_permissions:acl'
+after 'deploy:updated', 'symfony:assets:install' 
 after 'deploy:updated', 'deploy:migrate'
 
 
@@ -73,10 +68,7 @@ namespace :deploy do
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
+         execute :rake, 'cache:clear'
     end
   end
 
@@ -88,6 +80,7 @@ namespace :deploy do
     on roles(:db) do
       invoke 'symfony:console', 'doctrine:migrations:migrate  --no-interaction; true'
       invoke 'symfony:console', 'assetic:dump'
+      invoke 'symfony:console', 'cache:clear'
       #symfony_console 'doctrine:migrations:migrate', '--no-interaction'
     end
   end

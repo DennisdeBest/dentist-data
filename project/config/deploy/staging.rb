@@ -6,6 +6,15 @@
 server 'dev.dentist-data.fr', user: 'exploit', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
+set :symfony_env, "prod"
+
+
+
+# Default branch is :master
+#ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+set :branch, ENV['BRANCH'] || "develop"
+# Default deploy_to directory is /var/www/my_app_name
+
 
 # role-based syntax
 # ==================
