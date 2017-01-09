@@ -1,31 +1,10 @@
-<div class="pure-g">
-  <div class="island3 pure-u-1 pure-u-lg-2-3">
-    <h3>Speed up your <strong>bite !</strong> <span ng-bind="test"></span> <br><span ng-bind="testRes"></span></h3>
-    <h4>{{"Truncate textyguygyuyg" | trunc: 5}}</h4>
-    <h2 ng-bind="returning"></h2>
-    <button monkey-click time=1500 ></button>
-    <button monkey-click time=3000 ></button>
-  </div>
-</div>
-<div class="pure-g island">
-
-</div>
-
-<hr/>
-<div class="pure-g island">
-
-
-</div>
-
-<div class="pure-g island">
-
-</div>
-
-<div class="pure-g">
-</div>
-
-<div ng-controller="TranscludeController">
-  <input ng-model="title" aria-label="title"> <br/>
-  <textarea ng-model="text" aria-label="text"></textarea> <br/>
-  <app-transclude title="{{title}}"><span>{{text}}</span></app-transclude>
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+        <label for="first_name">First Named</label>
+      </div>
+    </div>
+  </form>
 </div>

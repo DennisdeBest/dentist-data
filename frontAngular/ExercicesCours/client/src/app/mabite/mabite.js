@@ -5,6 +5,11 @@
    * @name  MabiteCtrl
    * @description Controller
    */
+
+     $(document).ready(function() {
+       Materialize.updateTextFields();
+     });
+
   function MabiteCtrl($scope, ReturningVisitorService) {
       $scope.test = "Testsdgfsdfgsgdsgfdsgfsqg";
       if(ReturningVisitorService.get("mabite")) {
@@ -18,4 +23,6 @@
 
   angular.module('mabite', [])
     .controller('MabiteCtrl', MabiteCtrl);
+
+
 })();
